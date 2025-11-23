@@ -1,5 +1,8 @@
 # CrazyBrad77's Portfolio
 
+[!NOTE]
+This is not affelerated sponsered or endorsed by apple, This does not do funding or anything as it is open source!
+
 This is my portfolio!
 
 It is inspired by apple macbook and will be finished soon.
