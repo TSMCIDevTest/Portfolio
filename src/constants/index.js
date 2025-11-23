@@ -82,25 +82,25 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Oct 18, 2025",
+    date: "Nov 23, 2025",
     title:
-      "Second Post",
+      "I have a portfolio",
     image: "/images/blog1.png",
-    link: "https://crazy-brad77-blog.vercel.app/posts/first-post/",
+    link: "https://crazy-brad77-blog.vercel.app/posts/i-have-a-portfolio/",
   },
   {
     id: 2,
-    date: "Oct 18, 2025",
-    title: "New Blog",
+    date: "Oct 19, 2025",
+    title: "Second Post",
     image: "/images/blog2.png",
-    link: "https://crazy-brad77-blog.vercel.app/posts/new-blog/",
+    link: "https://crazy-brad77-blog.vercel.app/posts/first-post/",
   },
   {
     id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
+    date: "Oct 18, 2025",
+    title: "New Blog",
     image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    link: "https://crazy-brad77-blog.vercel.app/posts/new-blog/",
   },
 ];
 
@@ -148,29 +148,29 @@ const socials = [
     id: 1,
     text: "Github",
     icon: "/icons/github.svg",
-    bg: "#f4656b",
+    bg: "#000000",
     link: "https://github.com/TSMCIDevTest",
   },
   {
     id: 2,
-    text: "Platform",
-    icon: "/icons/atom.svg",
-    bg: "#4bcb63",
-    link: "https://jsmastery.com/",
+    text: "Youtube",
+    icon: "/icons/youtube.svg",
+    bg: "#FF0000",
+    link: "https://youtube.com/@crazybrad77",
   },
   {
     id: 3,
-    text: "Twitter/X",
-    icon: "/icons/twitter.svg",
-    bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
+    text: "Stack Overflow",
+    icon: "/icons/stackoverflow.svg",
+    bg: "#222426",
+    link: "https://stackoverflow.com/users/31695967/brad-christopher",
   },
   {
     id: 4,
-    text: "LinkedIn",
-    icon: "/icons/linkedin.svg",
-    bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    text: "Discord",
+    icon: "/icons/discord.svg",
+    bg: "#5865F2",
+    link: "https://discord.gg/YGVqV5yKFk",
   },
 ];
 
@@ -205,19 +205,15 @@ const photosLinks = [
 const gallery = [
   {
     id: 1,
-    img: "/images/gal1.png",
+    img: "/images/bradley.jpg",
   },
   {
     id: 2,
-    img: "/images/gal2.png",
+    img: "/images/bradley-2.jpg",
   },
   {
     id: 3,
-    img: "/images/gal3.png",
-  },
-  {
-    id: 4,
-    img: "/images/gal4.png",
+    img: "/images/bradley-3.jpeg",
   },
 ];
 
@@ -242,7 +238,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "BradNotes",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -250,21 +246,21 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "BradNotes.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "BradNotes is a sleek and modern platform designed for note taking.",
+            "We are used in schools all around the world.",
+            "Think of it like walking into a flagship Notes App—but right from your phone or laptop.",
+            "It's built with Next.js, Shadcdn and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
           ],
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "bradnotes.notes",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
@@ -273,7 +269,7 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "bradnotes.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -295,7 +291,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "BradEvents",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -303,21 +299,21 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "BradEvents.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
+            "Explore dev events around the world with BradEvents.",
+            "Instead of google searching on articles for them BradEvents have you covered.",
+            "Think of it like having a fun ever time looking for dev events you want to go.",
             "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
           ],
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "BradEvents.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
@@ -326,7 +322,7 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "ai-resume-analyzer.png",
+          name: "bradevents.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -348,7 +344,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "CrazyBrad77's Blog",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -356,30 +352,30 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "CrazyBrad77's Blog.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "Get inportant stuff from me.",
+            "Open Source for real as a blog.",
+            "Think of it like having your favorate news from anytime, anywhere.",
+            "It’s built with Hugo and Obsidian, so it works smoothly on any device with a clean, modern design.",
           ],
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "crazy-brad77-blog.vercel.app",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://crazy-brad77-blog.vercel.app/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
+          name: "blog.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -414,7 +410,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/bradley.jpg",
     },
     {
       id: 2,
@@ -423,7 +419,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/bradley-2.jpg",
     },
     {
       id: 3,
@@ -432,7 +428,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
+      imageUrl: "/images/bradley-3.jpeg",
     },
     {
       id: 4,
@@ -442,7 +438,7 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      image: "/images/bradley.jpg",
       description: [
         "Hey! I’m Bradley 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
         "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
