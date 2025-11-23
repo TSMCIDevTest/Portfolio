@@ -77,18 +77,18 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Sep 2, 2025",
+    date: "Oct 18, 2025",
     title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
+      "Second Post",
     image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+    link: "https://crazy-brad77-blog.vercel.app/posts/first-post/",
   },
   {
     id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
+    date: "Oct 18, 2025",
+    title: "New Blog",
     image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    link: "https://crazy-brad77-blog.vercel.app/posts/new-blog/",
   },
   {
     id: 3,
@@ -105,6 +105,10 @@ const techStack = [
     items: ["React.js", "Next.js", "TypeScript"],
   },
   {
+    category: "Languages",
+    items: ["JavaScript", "C", "Python", "Lua", "C#", "C++"],
+  },
+  {
     category: "Mobile",
     items: ["React Native", "Expo"],
   },
@@ -114,15 +118,23 @@ const techStack = [
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js", "Express", "NestJS", "Hono", "Flask"],
   },
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    items: ["MongoDB", "Firebase", "Supabase", "Appwrite"],
   },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    items: ["Git", "GitHub", "Docker", "GitLab"],
+  },
+  {
+    category: "Game Engines",
+    items: ["Unity", "Roblox Studio", "Unreal Engine"],
+  },
+  {
+    category: "Code Editors",
+    items: ["VS Code", "Visual Studio", "WebStorm"],
   },
 ];
 
@@ -132,7 +144,7 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/TSMCIDevTest",
   },
   {
     id: 2,
@@ -427,7 +439,7 @@ const ABOUT_LOCATION = {
       subtitle: "Meet the Developer Behind the Code",
       image: "/images/adrian.jpg",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
+        "Hey! I’m Bradley 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
         "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
         "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
         "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
