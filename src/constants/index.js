@@ -369,7 +369,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "agtv.net",
+          href: "https://agtv.net",
           position: "top-20 left-20",
         },
         {
@@ -399,7 +399,7 @@ const WORK_LOCATION = {
       name: "BradBooks",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-10 left-80",
+      position: "top-10 left-110",
       windowPosition: "top-[33vh] left-7",
       children: [
         {
