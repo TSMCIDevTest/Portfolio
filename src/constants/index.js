@@ -393,59 +393,7 @@ const WORK_LOCATION = {
         },
       ],
     },
-    // ▶ Project 3
-    {
-      id: 7,
-      name: "CrazyBrad77's Blog",
-      icon: "/images/folder.png",
-      kind: "folder",
-      position: "top-10 left-80",
-      windowPosition: "top-[33vh] left-7",
-      children: [
-        {
-          id: 1,
-          name: "CrazyBrad77's Blog.txt",
-          icon: "/images/txt.png",
-          kind: "file",
-          fileType: "txt",
-          position: "top-5 left-10",
-          description: [
-            "Get inportant stuff from me.",
-            "Open Source for real as a blog.",
-            "Think of it like having your favorate news from anytime, anywhere.",
-            "It’s built with Hugo and Obsidian, so it works smoothly on any device with a clean, modern design.",
-          ],
-        },
-        {
-          id: 2,
-          name: "crazy-brad77-blog.vercel.app",
-          icon: "/images/safari.png",
-          kind: "file",
-          fileType: "url",
-          href: "https://crazy-brad77-blog.vercel.app/",
-          position: "top-10 right-20",
-        },
-        {
-          id: 4,
-          name: "blog.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          position: "top-52 right-80",
-          imageUrl: "/images/project-3.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 right-20",
-        },
-      ],
-    },
-    // ▶ Project 3
+    // ▶ Project 4
     {
       id: 8,
       name: "BradBooks",
